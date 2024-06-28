@@ -32,11 +32,13 @@ Use Docker Compose to build and run the services. Open a terminal in the root di
 docker-compose up --build
 ```
 ### Step 3: Access the API Documentation
-Once the services are running, you can access the API documentation for each service:
+Once the services are running, you can access as well as test the API documentation for each service:
 
 User Service: http://localhost:8080/api/v1/users/docs <br>
 Auth Service: http://localhost:8080/api/v1/auth/docs  <br>
 Discussions Service: http://localhost:8080/api/v1/discussions/docs  
+
+### You can find Schemas for the project in Schemas.md file
 
 ## Auth Endpoints
 
